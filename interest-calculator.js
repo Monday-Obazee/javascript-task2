@@ -23,7 +23,7 @@ const data = [
 function interestCalculator(arr){
 	// loop through the arr using map()
 	let interestData = arr.map(function(item){
-		// destructure item
+		// item
 		let {principal, time} = item;
 
 		if(principal >= 2500 && (time > 1 && time < 3)){
